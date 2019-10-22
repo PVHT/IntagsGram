@@ -1,0 +1,32 @@
+#menuCollapse{
+    display: none;
+}
+.navbar-text {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+span#toggle-title{
+	display:none !important;
+}
+
+
+@media only screen and (max-width: 425px) {
+    #menuCollapse{
+        display: block;
+    }
+}
+
+
+span#toggle-icon:before{
+	content:"...";
+	display:block;
+}
+
+#btn-collapse:focus span#toggle-icon:before,span#toggle-title{
+	content:"X";
+	display:block;
+}

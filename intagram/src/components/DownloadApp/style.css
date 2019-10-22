@@ -1,0 +1,20 @@
+@media only screen and (max-width: 425px) {
+    #wrapperDownload {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 361px) {
+    #wrapperDownload {
+        flex-flow: column;
+        align-items: center;
+    }
+    #wrapperDownload>a {
+        margin:0 !important;
+    }
+}
+
+@media only screen and (max-width: 155px) {
+    .logoDownLoad{
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,19 @@
+@media only screen and (max-width: 425px) {
+    #containerRecomment {
+        width: 100% !important;
+        border: none;
+        background: none;
+    }
+}
+@media only screen and (max-width: 280px) {
+    #containerRecomment {
+        padding:5px 10px !important;
+    }
+}
+
+@media only screen and (max-width: 230px) {
+    #containerRecomment {
+        flex-flow: column;
+        align-items: center
+    }
+}
